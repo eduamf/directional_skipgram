@@ -108,7 +108,7 @@ int main(int argc, char **argv) {
       }
     }
     if (b == 0) continue;
-    printf("\n                                              Word              Distance\n------------------------------------------------------------------------\n");
+    printf("\n Word                                              Distance             \n------------------------------------------------------------------------\n");
     for (a = 0; a < size; a++) vec[a] = M[a + bi[1] * size] - M[a + bi[0] * size] + M[a + bi[2] * size];
     len = 0;
     for (a = 0; a < size; a++) len += vec[a] * vec[a];
